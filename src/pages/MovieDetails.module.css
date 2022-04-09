@@ -1,0 +1,29 @@
+.detailsContainer {
+  /* background-color: rgb(47, 194, 194); */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  max-width: 500px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: auto;
+  height: 50%;
+}
+
+.detailsImage {
+  border-radius: 1rem;
+}
+
+.detailsInfo {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 550px) {
+  .col {
+    max-width: 80%;
+  }
+}

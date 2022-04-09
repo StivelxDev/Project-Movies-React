@@ -1,0 +1,20 @@
+.headerContainer {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #000;
+  text-align: center;
+  padding: 0.5rem 0;
+  overflow: hidden;
+}
+
+.title {
+  display: inline-block;
+  color: #fff;
+  text-shadow: 0 0 5px rgb(177, 29, 214), 0 0 10px rgb(177, 29, 214),
+    0 0 20px rgb(177, 29, 214), 0 0 40px rgb(177, 29, 214),
+    0 0 80px rgb(177, 29, 214), 0 0 90px rgb(177, 29, 214),
+    0 0 100px rgb(177, 29, 214), 0 0 140px rgb(177, 29, 214),
+    0 0 180px rgb(177, 29, 214);
+}

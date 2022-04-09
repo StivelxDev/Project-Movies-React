@@ -1,0 +1,36 @@
+.movieCard {
+  list-style: none;
+  border: 0px solid transparent;
+  text-align: center;
+  box-shadow: 0 0 1rem rgb(177, 29, 214);
+  color: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: blueviolet;
+  height: 400px;
+  /* transition: box-shadow 0.3s ease-out; */
+}
+
+.movieCard:hover {
+  box-shadow: 0 0 1rem rgb(177, 29, 214) inset;
+  opacity: 0.7;
+}
+
+.imgCard {
+  background-color: azure;
+  max-height: 340px;
+}
+
+.titleCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* max-height: 70px; */
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 597px) {
+  .imgCard {
+    width: 100%;
+  }
+}

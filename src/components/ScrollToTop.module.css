@@ -1,0 +1,38 @@
+.scrollContainer {
+  position: fixed;
+  right: 10px;
+  bottom: 15px;
+  transition: all 0.7s ease-out;
+}
+
+.scrollOpacity {
+  opacity: 0;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-duration: 750ms; */
+}
+
+.scrollButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border: thin solid #6d6d6d;
+  border-radius: 50%;
+  /* border: none; */
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.scrollButton:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+.scrollIcon {
+  position: relative;
+  top: 3px;
+  font-size: 2rem;
+}
